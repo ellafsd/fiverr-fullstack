@@ -12,6 +12,7 @@ Sellers can create, manage, and delete their own services, including pricing, de
 - Image upload with slider preview
 - Category and keyword-based search
 
+
 ## Tech Stack
 
 ### Frontend
