@@ -34,11 +34,11 @@ Sellers can create, manage, and delete their own services, including pricing, de
 - JWT Authentication
 - Multer (image/file uploads)
 - Dotenv (environment variables)
-- Bcrypt (password hashing)
+- Bcrypt (password hashing) <br />
 
 ## Contributing
 Contributions, issues, and feature requests are welcome.  
-Feel free to fork the repository and submit a pull request.
+Feel free to fork the repository and submit a pull request. <br />
 
 ## Getting Started
 1. Clone the repository.
