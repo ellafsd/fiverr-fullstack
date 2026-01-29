@@ -13,12 +13,16 @@ const Select: FC<Props> = ({ label, options, name }) => {
       <label htmlFor={name} className="mb-2 text-sm font-medium text-gray-900">
         {label}
       </label>
-
       <select
         name={name}
         id={name}
+        defaultValue=""
+        required
         className="bg-gray-50 border border-gray-300 rounded-md p-2.5 placeholder-gray-400 text-dark focus:border-blue-500"
       >
+        <option value="" disabled selected>
+          Choose a category
+        </option>
         {options.map((category, key) => (
           <option key={key} value={category.name}>
             {category.name}
