@@ -9,6 +9,7 @@ import {
   FaMusic,
   FaBriefcase,
   FaUserTie,
+  FaHeart,
 } from "react-icons/fa";
 import type { ICategory, IInfo, IInput } from "../types";
 
@@ -22,6 +23,7 @@ export const categories: ICategory[] = [
   { name: "Music & Audio", icon: <FaMusic /> },
   { name: "Business", icon: <FaBriefcase /> },
   { name: "Consulting", icon: <FaUserTie /> },
+  { name: "Photography", icon: <FaHeart /> },
 ];
 
 

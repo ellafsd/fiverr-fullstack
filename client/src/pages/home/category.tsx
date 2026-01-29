@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Category: FC = () => {
   return (
-    <div className="my-10 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-9 gap-5">
+    <div className="my-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
       {categories.map((i, key) => (
         <Link
           to={`/search?category=${encodeURIComponent(i.name)}`}
