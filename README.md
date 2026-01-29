@@ -5,6 +5,12 @@ A full-stack Fiverr-like marketplace application built with a separate client an
 Users can browse services by category or search, view detailed gig pages, and explore seller profiles. 
 Sellers can create, manage, and delete their own services, including pricing, delivery time, revisions, and images. The project demonstrates real-world features such as authentication, role-based UI, CRUD operations, reusable components, and state synchronization after data mutations. <br /><br />
 
+## DEMO
+
+![App Demo](client/public/fiverr/fiverr.gif)
+![App Demo](client/public/fiverr/fiverr2.gif)
+
+
 
 ## Features
 - User and seller authentication
